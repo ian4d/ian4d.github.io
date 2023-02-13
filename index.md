@@ -5,4 +5,13 @@
 layout: default
 ---
 
-<div class="ianford">Ian Ford?</div>
+<article class="works">
+<h1 class="header rainbowText">ian4d</h1>
+<h1>Look upon his works, ye mighty, and despair!</h1>
+<div class="entry">
+<a href="https://fame.ian4d.com">Fame</a> is inspired by Andy Warhol's famous claim that in the future everyone would be famous for exactly 15 minutes. Users are invited one time to publish a statement that will live on the page for exactly 15 minutes, after which the message will disappear.
+</div>
+<div class="entry">
+<a href="https://www.thegrimbeeper.com">The Grim Beeper</a> is a dead man's switch as a service. For $1 users are able to schedule a message to deliver in the future unless they intervene regularly to delay it.
+</div>
+</article>

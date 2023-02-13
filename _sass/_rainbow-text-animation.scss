@@ -1,0 +1,47 @@
+
+$rainbowAnimationDelay: 0s;
+$rainbowAnimationDuration: 10s;
+
+@keyframes rainbow-text {
+    from {
+        color: #ff0000;
+    }
+
+    14% {
+        color: #ffa500;
+    }
+
+    28% {
+        color: #ffff00;
+    }
+
+    42% {
+        color: #008000;
+    }
+
+    56% {
+        color: #0000ff;
+    }
+
+    70% {
+        color: #4b0082;
+    }
+
+    84% {
+        color: #ee82ee;
+    }
+
+    to {
+        color: #ff0000;
+    }
+}
+
+.rainbowText {
+    animation-delay: $rainbowAnimationDelay;
+    animation-direction: normal;
+    animation-duration: $rainbowAnimationDuration;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: rainbow-text;
+    animation-timing-function: linear;
+}

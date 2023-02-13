@@ -1,0 +1,66 @@
+
+
+
+
+$speckSize: 5px;
+$speckColor: #ffffffee;
+$speckCount: 20;
+$speckSpacing: 30px;
+$speckBorderRadius: 20%;
+
+$spacedustAnimationDuration: 5s;
+$spacedustAnimationDelayRange: 10;
+$spacedustAnimationDelayFactor: .5s;
+
+
+
+
+@function randomNum($min, $max) {
+    $rand: random();
+    $randomNum: $min + floor($rand * (($max - $min) + 1));
+    @return $randomNum;
+}
+
+.speckHolder {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+}
+
+.speck {
+    position: absolute;
+    width: $speckSize;
+    height: $speckSize;
+    border-radius: $speckBorderRadius;
+    background-color: $speckColor;
+    animation-name: spacedust;
+    animation-duration: $spacedustAnimationDuration;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    display: inline;
+    opacity: 0%;
+}
+
+@for $num from 1 through $speckCount {
+    .speck:nth-child(#{$num}) {
+        left: ($num - 1) * $speckSpacing;
+        top: 0px;
+        animation-delay: randomNum(0, $spacedustAnimationDelayRange) * $spacedustAnimationDelayFactor;
+    }
+}
+
+@keyframes spacedust {
+    0% {
+        opacity: 0%;
+        transform: translate(0px, 0px);
+    }
+    50% {
+        opacity: 100%;
+    }
+    100%{
+        transform: translate(0px, 100px) scale(.5, .5) rotate(180deg);
+        opacity: 0%;
+    }
+}
