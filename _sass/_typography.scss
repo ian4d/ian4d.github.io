@@ -3,7 +3,7 @@
 $headerFont: "Silkscreen";
 $linkColor: #cd2020;
 
-a, a:hover {
+a, a:hover, a:visited {
     position: relative;
     color: $linkColor;
     text-decoration: none;
