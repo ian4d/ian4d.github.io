@@ -196,7 +196,7 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-a, a:hover { position: relative; color: #cd2020; text-decoration: none; }
+a, a:hover, a:visited { position: relative; color: #cd2020; text-decoration: none; }
 
 a::before { content: ''; position: absolute; width: 100%; height: 1px; border-radius: 4px; background-color: #cd2020; bottom: -2px; left: 0; transform-origin: right; transform: scaleX(0); transition: transform .3s ease-in-out; }
 
