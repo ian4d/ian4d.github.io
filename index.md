@@ -11,3 +11,8 @@ layout: default
 <div class="entry">
 <a href="https://fame.ian4d.com">Fame</a> is inspired by Andy Warhol's famous claim that in the future everyone would be famous for exactly 15 minutes. Users are invited one time to publish a statement that will live on the page for exactly 15 minutes, after which the message will disappear.
 </div>
+<div class="entry">
+<a href="https://moustache.ian4d.com">The International Pencil Moustahce Hall of Fame</a> celebrates and recognizes 
+great 
+achievements in the field of pencil moustaches.
+</div>
