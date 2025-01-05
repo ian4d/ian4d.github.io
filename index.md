@@ -9,7 +9,7 @@ layout: default
 <h1 class="header rainbowText">ian4d</h1>
 <h1>Look upon his works, ye mighty, and despair!</h1>
 <div class="entry">
-<a href="https://confess.ian4d.com">Confess It!</a> is a telephone powered audio-confession website. Call me, tell me 
+<a href="https://confessitnow.com">Confess It!</a> is a telephone powered audio-confession website. Call me, tell me 
 your 
 secrets. They're safe with me.
 </div>
