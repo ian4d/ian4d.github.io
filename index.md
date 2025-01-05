@@ -24,3 +24,6 @@ secrets. They're safe with me.
 great 
 achievements in the field of pencil moustaches.
 </div>
+<div class="entry">
+<a href="https://planter.ian4d.com">Planter</a> generates sequence diagrams that can be stepped through frame by frame, and all the code you need to embed them in another page.
+</div>
